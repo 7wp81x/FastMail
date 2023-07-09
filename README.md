@@ -10,23 +10,19 @@ Fastmail, free and fast custom temporary email
 ```pkg
 install git -y
 ```
-<br>
 ```pkg
 install python python-pip -y
 ```
-<br>
 ```pip
 install requests
 ```
-<br>
 ```cd
 $HOME
 ```
-<br>
 ```git clone
 https://github.com/Mrp1r4t3/FastMail
 ```
-<br>
+
 ```cd
 FastMai
 ```
@@ -38,18 +34,15 @@ FastMai
 ```python
 fastmail.py --help
 ```
-<br>
-**Run normally**:
+**Run normally**:<br>
 ```python
 fastmail.py
 ```
-<br>
-**Load tempmail from saved file:**
+**Load tempmail from saved file**:<br>
 ```python
 fastmail.py -f <email data file>
 ```
-<br>
-**Delete tempmail from saved file**:
+**Delete tempmail from saved file**:<br>
 ```python
 fastmail.py -d <email data file>
 ```
