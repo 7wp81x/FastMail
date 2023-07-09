@@ -12,7 +12,7 @@ pkg install git python python-pip -y
 pip install requests
 cd $HOME
 git clone https://github.com/Mrp1r4t3/FastMail
-cd FastMai
+cd FastMail
 ```
 <br>
 
