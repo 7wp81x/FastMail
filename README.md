@@ -10,4 +10,15 @@ fastmail, free and fast custom temporary email
 
 ## Usage
 1. `cd FastMail`
-2. `python fastmail.py --help`
+
+Help:
+`python fastmail.py --help`
+
+
+Run normally:
+`python fastmail.py`
+Load tempmail from saved file:
+`python fastmail.py -f <email data file>`
+Delete tempmail:
+`python fastmail.py -d <email data file>`
+
