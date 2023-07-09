@@ -6,24 +6,26 @@ Fastmail, free and fast custom temporary email
 #
 
 ## Termux Installation
-1. `pkg install git -y`
-2. `pkg install python python-pip -y`
-3. `pip install requests`
-4. `cd $HOME`
-5. `git clone https://github.com/Mrp1r4t3/FastMail`
+
+```pkg install git -y```
+```pkg install python python-pip -y```
+```pip install requests```
+```cd $HOME```
+```git clone https://github.com/Mrp1r4t3/FastMail```
+```cd FastMai```
+
 
 ## Usage
-1. `cd FastMail`
 
-Help:
-`python fastmail.py --help`
+*Help*:<br>
+```python fastmail.py --help```
 ##
-Run normally:
-`python fastmail.py`
-##
-Load tempmail from saved file:
-`python fastmail.py -f <email data file>`
-##
-Delete tempmail:
-`python fastmail.py -d <email data file>`
+*Run normally*:
+```python fastmail.py```
+<br>
+*Load tempmail from saved file:*
+```python fastmail.py -f <email data file>```
+<br>
+*Delete tempmail from saved file*:
+```python fastmail.py -d <email data file>```
 
